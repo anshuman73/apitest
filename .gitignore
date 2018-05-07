@@ -1,0 +1,11 @@
+# Ignore PyCharm files
+.idea/
+
+# Ignore pycache files and byte-code compiled files
+__pycache__/
+*.pyc
+
+
+# Environment variables - .env is being allowed to show how the deployment variables need to be, but is put here
+# so we can disable in prod and give system env variables in a deployment friendly manner
+#.env
